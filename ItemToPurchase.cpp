@@ -3,7 +3,7 @@ using namespace std;
 #include "ItemToPurchase.h"
 
 // ItemToPurchase constructor
-ItemToPurchase::ItemToPurchase(string itemName="none", int itemPrice=0, int itemQuantity=0) {   
+ItemToPurchase::ItemToPurchase(string itemName, int itemPrice, int itemQuantity) {   
     this->itemName = itemName;
     this->itemPrice = itemPrice;
     this->itemQuantity = itemQuantity;
